@@ -23,30 +23,55 @@
             <form id="loan-form">
               <div class="form-group">
                 <div class="input-group">
-                  <span class="input-group-addon">$</span>
+                  <span class="input-group-addon" style="padding-right:2.5rem">Selling Price</span>
                   <input type="number" class="form-control" id="amount" placeholder="Selling Price">
                 </div>
               </div>
               <div class="form-group">
                 <div class="input-group">
-                  <span class="input-group-addon">[]</span>
+                  <span class="input-group-addon" style="padding-right:1.7rem">Shipping Cost</span>
                   <input type="number" class="form-control" id="interest" placeholder="Shipping Cost">
                 </div>
               </div>
               <div class="form-group">
                 <div class="input-group">
-                  <span class="input-group-addon">*</span>
+                  <span class="input-group-addon">Investment Cost</span>
                   <input type="number" class="form-control" id="years" placeholder="Investment Cost">
                 </div>
               </div>
-              <div class="forn-group">
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon" style="padding-right:3.1rem">Break Even</span>
+                  <input type="number" class="form-control" id="break-even" placeholder="Number to Break Even">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon" style="padding-right:5.5rem">Profit</span>
+                  <input type="number" class="form-control" id="profit" placeholder="Profit">
+                </div>
+              </div>
+              <div class="form-group">
                 <input type="submit" value="Calculate Profit" class="btn btn-dark btn-block">
               </div>
+              <div class="form-group">
+                <input type="submit" value="Calculate Shipping" class="btn2 btn btn-dark btn-block">
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Calculate Investment" class="btn3 btn btn-dark btn-block">
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Calculate Selling Price" class="btn4 btn btn-dark btn-block">
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Calculate Break Even Number" class="btn5 btn btn-dark btn-block">
+              </div>
             </form>
+            
             <!-- LOADER -->
             
             <div id="loading">
-              <img src="img/loading.gif" alt="">
+              <!-- <img src="img/loading.gif" alt=""> -->
             </div>
             
             <!-- RESULTS -->
