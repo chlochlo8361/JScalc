@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Chloe",
+        "payment": "Completed",
+        "trip": "Round Trip",
+        "drinks": "Paid for 2"
+    },
+    {
+        "name": "Jack",
+        "payment": "Incomplete",
+        "trip": "One Way",
+        "drinks": "0"
+    },
+    {
+        "name": "Tina",
+        "payment": "Completed",
+        "trip": "Round Trip",
+        "drinks": "Paid for 1"
+    },
+    {
+        "name": "Dalton",
+        "payment": "Completed",
+        "trip": "One Way",
+        "drinks": "Paid for 4"
+    },
+    {
+        "name": "Jenny",
+        "payment": "Incompleted",
+        "trip": "Round Trip",
+        "drinks": "0"
+    }
+]
